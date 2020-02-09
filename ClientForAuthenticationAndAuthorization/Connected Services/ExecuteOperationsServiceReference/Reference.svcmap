@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c63179ca-e6dc-436b-8dfb-332a7e248f5e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8046/ExecuteOperationsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ExecuteOperationsService.disco" MetadataType="Disco" ID="f2bdfefd-8922-43b7-8655-5f87dcd42f5e" SourceId="1" SourceUrl="http://localhost:8046/ExecuteOperationsService.svc?disco" />
+    <MetadataFile FileName="ExecuteOperationsService.wsdl" MetadataType="Wsdl" ID="14cd06a7-e9aa-4162-8c12-78835c103519" SourceId="1" SourceUrl="http://localhost:8046/ExecuteOperationsService.svc?wsdl" />
+    <MetadataFile FileName="ExecuteOperationsService.xsd" MetadataType="Schema" ID="36a07e29-413a-4c90-b237-f89d28a8dad7" SourceId="1" SourceUrl="http://localhost:8046/ExecuteOperationsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ExecuteOperationsService1.xsd" MetadataType="Schema" ID="7c718319-4ab6-4566-b944-45978175de1d" SourceId="1" SourceUrl="http://localhost:8046/ExecuteOperationsService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

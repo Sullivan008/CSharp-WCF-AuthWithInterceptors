@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ServerForAuthenticationAndAuthorization.ExecuteOperationsService" CodeBehind="ExecuteOperationsService.svc.cs" %>
